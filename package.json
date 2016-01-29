@@ -1,0 +1,18 @@
+{
+  "name": "rapid-website-boilerplate",
+  "version": "0.0.1",
+  "description": "A basic front-end boilerplate for rapid website prototyping in the browser using Gulp, Nunjucks, PostCSS, Browsersync, and more.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "boilerplate",
+    "rapid",
+    "prototype",
+    "website",
+    "design"
+  ],
+  "author": "Chris Bracco",
+  "license": "MIT"
+}
