@@ -11,7 +11,7 @@ This tool is a front-end website boilerplate that makes it easier to begin desig
 - [Gulp] as a build system to automate tasks and watch files for changes.
 - [Browsersync] for serving files, live-reloading browsers, and multi-device testing.
 - [Nunjucks] as a front-end templating language.
-- [PostCSS] for CSS [file imports], [url rebasing], [future-friendly syntax, vendor prefixing], [reporting]  [tools], and more.
+- [PostCSS] for CSS [file imports], [url rebasing], [future-friendly syntax, vendor prefixing], [reporting] [tools], and more.
 
 ## Installation
 
