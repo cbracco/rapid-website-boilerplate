@@ -11,7 +11,7 @@ This tool is a front-end website boilerplate that makes it easier to begin desig
 - [Gulp] as a build system to automate tasks and watch files for changes.
 - [Browsersync] for serving files, live-reloading browsers, and multi-device testing.
 - [Nunjucks] as a front-end templating language.
-- [PostCSS] for CSS [file imports], [url rebasing], [future-friendly syntax, vendor prefixing], [reporting] [tools], and more.
+- [PostCSS] for CSS [file imports], [url rebasing], [future-friendly syntax, vendor prefixing], [browser] & [console] error reporting, and more.
 
 ## Installation
 
@@ -56,7 +56,9 @@ Thank you all for your hard work.
 [@kogakure]: https://github.com/kogakure
 [@rstacruz]: https://github.com/rstacruz
 [@zellwk]: https://gist.github.com/zellwk
+[browser]: https://github.com/postcss/postcss-browser-reporter
 [Browsersync]: https://browsersync.io
+[console]: https://github.com/postcss/postcss-reporter
 [contributors]: https://github.com/cbracco/rapid-website-boilerplate/graphs/contributors
 [default Gulp task]: gulp/tasks/default.js
 [file imports]: https://github.com/postcss/postcss-import
@@ -67,6 +69,5 @@ Thank you all for your hard work.
 [gulp-tutorial]: https://github.com/kogakure/gulp-tutorial
 [Nunjucks]: https://mozilla.github.io/nunjucks
 [PostCSS]: https://github.com/postcss/postcss
-[reporting]: https://github.com/postcss/postcss-reporter
 [tape-standard]: https://github.com/rstacruz/tape-standard
-[tools]: https://github.com/postcss/postcss-browser-reporter
+
