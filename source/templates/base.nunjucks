@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title, desc -->
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/styles/styles.min.css">
+  </head>
+  <body>
+    <div role="document">
+      {% include 'partials/header.nunjucks' %}
+      <div role="main">
+        {% block content %} {% endblock %}
+      </div>
+      {% include 'partials/footer.nunjucks' %}
+    </div>
+    <!-- Scripts -->
+    <script src="./assets/scripts/scripts.min.js"></script>
+  </body>
+</html>
