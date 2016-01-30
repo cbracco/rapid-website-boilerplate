@@ -1,5 +1,4 @@
 // Define Dependencies
-var browserSync = require('browser-sync')
 var config = require('../config').templates
 var data = require('gulp-data')
 var fs = require('fs')
