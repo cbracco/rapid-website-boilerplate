@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
-    "test": "tape test/*.js | faucet"
+    "test": "standard test/*.js && tape test/*.js | faucet"
   },
   "keywords": [
     "rapid",
