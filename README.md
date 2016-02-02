@@ -2,16 +2,17 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Build Status](https://travis-ci.org/cbracco/rapid-website-boilerplate.svg)](https://travis-ci.org/cbracco/rapid-website-boilerplate)
 
-> A basic front-end boilerplate for rapid website prototyping in the browser using [Gulp], [Nunjucks], [PostCSS], [Browsersync], and more.
+> A basic front-end boilerplate for rapid website prototyping in the browser using [Gulp], [Nunjucks], [PostCSS], [Browsersync], [svg-sprite] and more.
 
 This tool is a front-end website boilerplate that makes it easier to begin designing and developing rapid website prototypes in the browser. It is a barebones static site generator that automates a few common development tasks and includes a few convenience features so you can focus more on creating a design and less on optimizing a workflow.
 
 ## Features
 
 - [Gulp] as a build system to automate tasks and watch files for changes.
-- [Browsersync] for serving files, live-reloading browsers, and multi-device testing.
 - [Nunjucks] as a front-end templating language.
 - [PostCSS] for CSS [file imports], [url rebasing], [future-friendly syntax, vendor prefixing], [browser] & [console] error reporting, and more.
+- [Browsersync] for serving files, live-reloading browsers, and multi-device testing.
+- [svg-sprite] to automatically generate and optimize an SVG sprite from raw SVG files.
 
 ## Installation
 
@@ -69,5 +70,5 @@ Thank you all for your hard work.
 [gulp-tutorial]: https://github.com/kogakure/gulp-tutorial
 [Nunjucks]: https://mozilla.github.io/nunjucks
 [PostCSS]: https://github.com/postcss/postcss
+[svg-sprite]: https://github.com/jkphl/svg-sprite
 [tape-standard]: https://github.com/rstacruz/tape-standard
-
