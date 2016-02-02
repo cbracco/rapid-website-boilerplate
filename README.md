@@ -2,7 +2,7 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Build Status](https://travis-ci.org/cbracco/rapid-website-boilerplate.svg)](https://travis-ci.org/cbracco/rapid-website-boilerplate)
 
-> A basic front-end boilerplate for rapid website prototyping in the browser using [Gulp], [Nunjucks], [PostCSS], [Browsersync], [svg-sprite] and more.
+> A basic front-end boilerplate for rapid website prototyping in the browser using [Gulp], [Nunjucks], [PostCSS], [Browserify], [Browsersync], [svg-sprite] and more.
 
 This tool is a front-end website boilerplate that makes it easier to begin designing and developing rapid website prototypes in the browser. It is a barebones static site generator that automates a few common development tasks and includes a few convenience features so you can focus more on creating a design and less on optimizing a workflow.
 
@@ -11,6 +11,7 @@ This tool is a front-end website boilerplate that makes it easier to begin desig
 - [Gulp] as a build system to automate tasks and watch files for changes.
 - [Nunjucks] as a front-end templating language.
 - [PostCSS] for CSS [file imports], [url rebasing], [future-friendly syntax, vendor prefixing], [browser] & [console] error reporting, and more.
+- [Browserify] for requiring JavaScript modules and bundling dependencies in the browser.
 - [Browsersync] for serving files, live-reloading browsers, and multi-device testing.
 - [svg-sprite] to automatically generate and optimize an SVG sprite from raw SVG files.
 
@@ -58,6 +59,7 @@ Thank you all for your hard work.
 [@rstacruz]: https://github.com/rstacruz
 [@zellwk]: https://gist.github.com/zellwk
 [browser]: https://github.com/postcss/postcss-browser-reporter
+[Browserify]: http://browserify.org
 [Browsersync]: https://browsersync.io
 [console]: https://github.com/postcss/postcss-reporter
 [contributors]: https://github.com/cbracco/rapid-website-boilerplate/graphs/contributors
