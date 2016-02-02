@@ -17,14 +17,13 @@
   ],
   "author": "Chris Bracco",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.11.1",
     "browserify": "^13.0.0",
     "browserify-shim": "^3.8.12",
     "css-mqpacker": "^4.0.0",
     "cssnano": "^3.4.0",
     "del": "^2.2.0",
-    "faucet": "0.0.1",
     "fs": "0.0.2",
     "gulp": "^3.9.0",
     "gulp-data": "^1.2.1",
@@ -44,9 +43,12 @@
     "postcss-url": "^5.1.0",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.5",
-    "standard": "^5.4.1",
-    "tape": "^4.4.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "standard": "^5.4.1",
+    "tape": "^4.4.0"
   }
 }
