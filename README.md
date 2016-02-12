@@ -38,7 +38,7 @@ This will run the [default Gulp task][gulp-task-default] which builds the websit
 ## Credits
 
 > *“If I have seen further it is by standing on ye sholders of Giants.”*
-> &mdash; Issac Newton
+> &mdash; [Issac Newton][issac-newton-quote]
 
 rapid-website-boilerplate is a project by [@cbracco][cbracco] and its [contributors][contributors]. It is influenced by the following organizations, projects, articles, and individuals:
 
@@ -62,6 +62,7 @@ Thank you all for your hard work.
 [gulp-nunjucks-article]: http://www.zell-weekeat.com/nunjucks-with-gulp
 [gulp-task-default]: gulp/tasks/default.js
 [gulp-tutorial]: https://github.com/kogakure/gulp-tutorial
+[issac-newton-quote]: https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants
 [kogakure]: https://github.com/kogakure
 [nunjucks]: https://mozilla.github.io/nunjucks
 [postcss]: https://github.com/postcss/postcss
