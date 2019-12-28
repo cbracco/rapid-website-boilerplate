@@ -6,14 +6,30 @@
 
 This tool is a front-end website boilerplate that makes it easier to begin designing and developing rapid website prototypes in the browser. It is a barebones static site generator that automates a few common development tasks and includes a few convenience features so you can focus more on creating a design and less on optimizing a workflow.
 
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Contributing](#contributing)
+- [Changelog](#changelog)
+- [License](#license)
+
 ## Features
 
-- [Gulp][gulp] as a build system to automate tasks and watch files for changes.
+- [Gulp 4][gulp] as a build system to automate tasks and watch files for changes.
 - [Nunjucks][nunjucks] as a front-end templating language.
 - [PostCSS][postcss] for CSS [file imports][postcss-import], [url rebasing][postcss-url], [future-friendly syntax, vendor prefixing][postcss-cssnext], [browser][postcss-browser-reporter] & [console][postcss-reporter] error reporting, and more.
 - [Browserify][browserify] for requiring JavaScript modules and bundling dependencies in the browser.
 - [Browsersync][browsersync] with [xip.io][xip.io] for serving files, live-reloading browsers, and multi-device testing.
 - [svg-sprite][svg-sprite] to automatically generate and optimize an SVG sprite from raw SVG files.
+
+## Requirements
+
+This project is compatible with **Linux**, **Unix**, and **Mac OSX** operating systems. It requires the following software to be already installed on your system:
+
+- [Node.js][node] (>= 8.11.3)
+- [npm][npm] (>= 5.0.0)
 
 ## Installation
 

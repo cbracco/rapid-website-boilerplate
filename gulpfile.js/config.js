@@ -1,8 +1,8 @@
 // Define paths
-var source = 'source/'
-var sourceAssets = 'source/assets/'
-var destination = 'dist/'
-var destinationAssets = 'dist/assets/'
+const source = './source/'
+const sourceAssets = './source/assets/'
+const destination = './dist/'
+const destinationAssets = './dist/assets/'
 
 // Define Configuration
 module.exports = {
@@ -50,12 +50,11 @@ module.exports = {
   //
   styles: {
     src: sourceAssets + 'styles/styles.css',
+    path: sourceAssets + 'styles/',
     dest: destinationAssets + 'styles',
     processors: {
       cssnext: {
-        browsers: [
-          'last 2 versions'
-        ]
+        browsers: 'last 2 versions'
       }
     }
   },
