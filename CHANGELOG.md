@@ -1,3 +1,7 @@
+# 0.1.1 (December 28, 2019)
+
+- Fix tests
+
 # 0.1.0 (December 28, 2019)
 
 - Update to Gulp 4
